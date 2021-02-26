@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 class Number<T extends Comparable<T>> {
+    private boolean isSorted;
+
     private List<T> numberList = new ArrayList<>();
 
     public void addNumbers(T number) {
@@ -31,5 +33,6 @@ class Number<T extends Comparable<T>> {
 
         }
     }
+    //todo to check if arrayList is sorted
 
 }
